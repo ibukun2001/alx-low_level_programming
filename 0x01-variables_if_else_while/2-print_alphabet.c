@@ -1,14 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - print lowercase alphabet
- * new line
+ * main - print in lowercase,
+ * followed by a new line
  * Return: Always 0
  */
 int main(void)
-{
-	char ch;
-
+{	char ch:
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
